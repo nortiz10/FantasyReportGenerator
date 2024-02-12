@@ -1,6 +1,5 @@
 import requests
 import json
-import sqlite3
 
 PLAYER_OVERVIEW = "https://site.web.api.espn.com/apis/common/v3/sports/football/nfl/athletes/{}/overview"
 SKILL_LIST = ["QB",'RB', 'WR', 'TE']

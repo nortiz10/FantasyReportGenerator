@@ -24,7 +24,6 @@ cursor.execute('create table matchups (away, home)')
 for i in range(1,35):
     if i == 31 or i == 32:
         continue
-    print('got team ',i)
     response = requests.get(ROSTER.format(str(i)))
     data = json.loads(response.text)
     get_players(data)

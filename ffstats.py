@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup as bs
 import espn_data
-import pandas as pd
 import requests
 import sqlite3
 
