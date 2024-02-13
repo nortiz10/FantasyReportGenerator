@@ -36,8 +36,10 @@ You can install the necessary dependencies using pip3:
 ##### Alternatively(if not using a discord bot):
 1. Clone or download the repository
 2. Make sure you have the necessary dependencies installed(except discord)
-3. A simple print statement in `responses.py` will display the full output in the terminal  
+3. A simple print statement in `responses.py` will display the full output in the terminal:  
 `print(ffstats.get_player_info("Travis Kelce")` where Travis Kelce is a placeholder for any skill position player.
+4. Execute the `responses.py` script:  
+`python3 responses.py`
 ---
 ### Disclaimer
 Given the 2023 season is over, using `load_db.py` to update the SQLite3 databse is discouraged as functionality will vary. Additionally since the 'previous performance' calculations are on-demand accuracy may vary outside of active season play. The provided myDb.db is loaded with information up to game week 15 of the 2023 season for demo purposes in the off season.
