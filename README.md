@@ -23,20 +23,20 @@ The following are needed to run the script and bot:
 - sqlite3
 - discord
 - json
-You can install the necessary dependencies using pip3:
+You can install the necessary dependencies using pip3:  
 `pip3 install beautifulsoup4 requests sqlite3 discord json`
 ---
 ### Usage
 1. Clone or download the repository
 2. Make sure you have the necessary dependencies installed
-3. With the discord bot properly set up and in a server execute the script
+3. With the discord bot properly set up and in a server execute the script  
 `python3 main.py`
 4. Typing a full player's name as shown in the png in this repo will produce the comprehensive player projection for the current game week.
 
 ##### Alternatively(if not using a discord bot):
 1. Clone or download the repository
 2. Make sure you have the necessary dependencies installed(except discord)
-3. A simple print statement in `responses.py` will display the full output in the terminal
+3. A simple print statement in `responses.py` will display the full output in the terminal  
 `print(ffstats.get_player_info("Travis Kelce")` where Travis Kelce is a placeholder for any skill position player.
 ---
 ### Disclaimer
