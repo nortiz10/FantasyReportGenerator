@@ -23,8 +23,10 @@ The following are needed to run the script and bot:
 - sqlite3
 - discord
 - json  
+
 You can install the necessary dependencies using pip3:  
 `pip3 install beautifulsoup4 requests sqlite3 discord json`
+
 ---
 ### Usage
 1. Clone or download the repository
